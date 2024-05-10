@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('imagenfondobeatme.jpg') center/cover no-repeat #f8f8f8;
+    font-family: Monserrat, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-family: UrbanJungleDEMO, sans-serif;
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-stroke-width: 2px black;
+    text-shadow: 0 0 10px #fff, 0 0 40px #00bcd4;
+    margin-bottom: 20px;
+}
+
+h3, h5 {
+    font-family: monospace;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+button {
+    padding: 15% 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(169, 169, 169);
+    transition: background-color 0.3s;
+}
+
+button.active {
+    background-color: #6c2727;
+}
+
+.stop-btn {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: normal;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
+    padding: 25%;
+    width: 80%;
+    height: 10%;
+    grid-column: span 3;
+    margin-top: 10px;
+    color: black;
+    background-color: rgb(169, 169, 169);
+}
+
+.marco {
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.marco img {
+    max-width: 100%;
+    height: auto;
+}
+
+button:nth-child(-n+9) { background-color: var(--color-#8f8f8f); }
