@@ -81,7 +81,7 @@ button.active {
 
 .marco img {
     max-width: 5%;
-    height: auto;
+    height: 20px;
     align-content: flex-end;
 }
 
