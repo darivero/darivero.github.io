@@ -16,14 +16,21 @@ h1 {
     margin-bottom: 20px;
 }
 
-h3, h5 {
+h3 {
     font-family: monospace;
     font-size: 20px;
     color: #fff;
     text-shadow: 0 0 5px black;
 }
+h5 {
+    font-family: monospace;
+    font-size: 10px;
+    color: #fff;
+    text-shadow: 0 0 5px black;
+}
 
 .botones {
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -32,9 +39,9 @@ h3, h5 {
 }
 
 button {
-    padding: 15% 15%;
-    margin-left: 5%;
-    margin-right: 5%;
+
+    padding: 0% 0%;
+    margin: 5%;
     font-family: Roboto, sans-serif;
     font-size: 30px;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
@@ -43,28 +50,27 @@ button {
     border: none;
     border-radius: 10px;
     color: black;
-    background-color: rgb(169, 169, 169);
+    background-color: #266ba3;
     transition: background-color 0.3s;
 }
 
 button.active {
-    background-color: #6c2727;
+    background-color: #133b61;
 }
 
 .stop-btn {
     font-family: Roboto, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     line-height: normal;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-    padding: 25%;
-    width: 80%;
-    height: 10%;
-    grid-column: span 3;
-    margin-top: 10px;
+    padding: 15px 0; /* Ajustar el padding para adaptarse al contenido */
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    margin: 30px auto; /* Centrar el botón y ajustar los márgenes */
     color: black;
-    background-color: rgb(169, 169, 169);
+    background-color: rgb(200, 33, 33);
 }
+
 
 .marco {
     width: 100%;
@@ -74,8 +80,9 @@ button.active {
 }
 
 .marco img {
-    max-width: 100%;
+    max-width: 5%;
     height: auto;
+    align-content: flex-end;
 }
 
-button:nth-child(-n+9) { background-color: var(--color-#8f8f8f); }
+button:nth-child(-n+9) { background-color: var(--color-#4db456); }
