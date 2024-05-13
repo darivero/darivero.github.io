@@ -75,7 +75,7 @@ button.active {
 
 .marco {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para resaltar el texto */
+    /*background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para resaltar el texto */
     padding: 20px;
     text-align: center;
     position: fixed; /* Fija el marco en la parte superior */
