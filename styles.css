@@ -15,6 +15,7 @@ h1 {
     -webkit-text-stroke-width: 2px black;
     text-shadow: 0 0 10px #fff, 0 0 40px #00bcd4;
     margin-bottom: 20px;
+    margin-top: 20%;
 }
 
 h3 {
