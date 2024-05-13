@@ -1,11 +1,12 @@
 body {
-    margin: 0;
+   margin: 0;
     padding: 0;
     background: url('imagenfondobeatme.jpg') center/cover no-repeat #f8f8f8;
     font-family: Monserrat, sans-serif;
     text-align: center;
     color: white;
     height: 100vh; /* Ajusta la altura del body al 100% del viewport */
+    padding-top: 100px; /* Ajusta el padding superior para evitar que el contenido se superponga al marco */
 }
 
 h1 {
@@ -76,19 +77,13 @@ button.active {
 
 .marco {
     width: 100%;
-    /*background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para resaltar el texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para resaltar el texto */
     padding: 20px;
     text-align: center;
     position: fixed; /* Fija el marco en la parte superior */
     top: 0; /* Alinea el marco en la parte superior */
-    display: flex;
-    justify-content: space-between; /* Distribuye los elementos a lo largo del espacio disponible */
-
-    /*width: 100%;
-    height: 10%;
-    background-color: black;
-    padding: 1%;
-    text-align: left;*/
+    z-index: 1000; /* Asegura que esté por encima del contenido */
+    box-sizing: border-box; /* Incluye el padding y el border en el ancho y alto */
 }
 
 
