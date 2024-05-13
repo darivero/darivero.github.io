@@ -93,7 +93,7 @@ button.active {
 
 
 .logo {
-    display: flex;
+    display: block;
     align-items: center; /* Alinea verticalmente los elementos del logo */
 }
 
