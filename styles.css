@@ -5,6 +5,7 @@ body {
     font-family: Monserrat, sans-serif;
     text-align: center;
     color: white;
+    height: 100vh; /* Ajusta la altura del body al 100% del viewport */
 }
 
 h1 {
@@ -50,12 +51,12 @@ button {
     border: none;
     border-radius: 10px;
     color: black;
-    background-color: #266ba3;
+    background-color: #0084ff;
     transition: background-color 0.3s;
 }
 
 button.active {
-    background-color: #133b61;
+    background-color: #0004ff;
 }
 
 .stop-btn {
@@ -74,15 +75,57 @@ button.active {
 
 .marco {
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5); /* Agrega un fondo semitransparente para resaltar el texto */
     padding: 20px;
     text-align: center;
+    position: fixed; /* Fija el marco en la parte superior */
+    top: 0; /* Alinea el marco en la parte superior */
+    display: flex;
+    justify-content: space-between; /* Distribuye los elementos a lo largo del espacio disponible */
+
+    /*width: 100%;
+    height: 10%;
+    background-color: black;
+    padding: 1%;
+    text-align: left;*/
+}
+
+
+.logo {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos del logo */
+}
+
+.logo-img {
+    max-width: 100px; /* Ajusta el tamaño máximo del logo */
+    margin-right: 10px; /* Agrega un margen a la derecha del logo */
+}
+
+.games4d-text {
+    font-size: 24px; /* Ajusta el tamaño del texto GAMES4D */
+    font-weight: bold;
+}
+
+.menu {
+    margin-top: 10%; /* Ajusta el margen superior del menú */
+}
+
+.menu select {
+    font-family: Roboto, sans-serif; /* Aplica la fuente al menú desplegable */
+    font-size: 16px; /* Ajusta el tamaño del texto del menú */
+    padding: 8px; /* Agrega un relleno al menú desplegable */
+    border: none; /* Elimina el borde del menú desplegable */
+    border-radius: 5px; /* Agrega esquinas redondeadas al menú desplegable */
+    background-color: #0084ff; /* Aplica un color de fondo al menú desplegable */
+    color: white; /* Aplica un color de texto blanco al menú desplegable */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el menú desplegable */
 }
 
 .marco img {
     max-width: 5%;
-    height: 20px;
-    align-content: flex-end;
+    height: 1%;
+    padding: 0,5% ;
+    align-content: left;
 }
 
 button:nth-child(-n+9) { background-color: var(--color-#4db456); }
