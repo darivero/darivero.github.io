@@ -96,7 +96,7 @@ body {
 
 .marco-fijo .izquierda {
     display: flex;
-    align-items: center;
+    align-items: left;
 }
 
 .marco-fijo .logo {
