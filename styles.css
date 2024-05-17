@@ -103,8 +103,8 @@ body {
 }
 
 .marco-fijo .logo {
-    max-height: 60%; /* Ajusta el tamaño del logo relativo a la altura del marco */
-    margin-right: 10px;
+    max-height: 05%; /* Ajusta el tamaño del logo relativo a la altura del marco */
+    margin-right: 10%;
 }
 
 .marco-fijo .derecha {
