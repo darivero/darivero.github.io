@@ -1,12 +1,12 @@
 body {
-   margin: 0;
+    margin: 0;
     padding: 0;
     background: url('imagenfondobeatme.jpg') center/cover no-repeat #f8f8f8;
     font-family: Monserrat, sans-serif;
     text-align: center;
     color: white;
-    height: 100vh; /* Ajusta la altura del body al 100% del viewport */
-    padding-top: 10%; /* Ajusta el padding superior para evitar que el contenido se superponga al marco */
+    height: 100vh;
+    padding-top: 100px;
 }
 
 h1 {
@@ -33,7 +33,6 @@ h5 {
 }
 
 .botones {
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -42,8 +41,7 @@ h5 {
 }
 
 button {
-
-    padding: 0% 0%;
+    padding: 0;
     margin: 5%;
     font-family: Roboto, sans-serif;
     font-size: 30px;
@@ -67,35 +65,33 @@ button.active {
     text-align: center;
     line-height: normal;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-    padding: 15px 0; /* Ajustar el padding para adaptarse al contenido */
-    width: 80%; /* Ajustar el ancho según sea necesario */
-    margin: 20%; /* Centrar el botón y ajustar los márgenes */
-    margin-top: 1%;
+    padding: 15px 0; 
+    width: 80%; 
+    margin: 20% auto; 
     color: black;
     background-color: rgb(200, 33, 33);
 }
 
-
-/*body {
+body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     background-image: url("CartaFrente.JPG");
     color: white;
     padding: 20px;
-    margin: 0; /* Asegura que no haya margen por defecto */
+    margin: 0; 
 }
 
 .marco-fijo {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10vh; /* 1/10 del alto de la pantalla */
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    height: 10vh; 
+    background-color: rgba(0, 0, 0, 0.7); 
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    z-index: 1000; 
 }
 
 .marco-fijo .izquierda {
@@ -104,8 +100,8 @@ button.active {
 }
 
 .marco-fijo .logo {
-    max-height: 05%; /* Ajusta el tamaño del logo relativo a la altura del marco */
-    margin-right: 10%;
+    max-height: 60%; 
+    margin-right: 10px;
 }
 
 .marco-fijo .derecha {
@@ -123,7 +119,7 @@ button.active {
 .marco-fijo .menu-desplegable {
     display: none;
     position: absolute;
-    top: 40px; /* Ajusta según sea necesario */
+    top: 40px; 
     right: 0;
     background-color: white;
     color: black;
@@ -144,45 +140,40 @@ button.active {
     background-color: #f0f0f0;
 }
 
-/* Resto de los estilos CSS aquí... */
-
-
 .logo {
     display: block;
-    align-items: center; /* Alinea verticalmente los elementos del logo */
+    align-items: center; 
 }
 
 .logo-img {
-    max-width: 10%; /* Ajusta el tamaño máximo del logo */
-    margin-right: 10px; /* Agrega un margen a la derecha del logo */
+    max-width: 100px; 
+    margin-right: 10px; 
 }
 
 .games4d-text {
-    font-size: 24px; /* Ajusta el tamaño del texto GAMES4D */
+    font-size: 24px; 
     font-weight: bold;
 }
 
 .menu {
-    margin-top: 10%; /* Ajusta el margen superior del menú */
-   margin-rigth: 10%;
+    margin-top: 10%; 
+    margin-rigth: 10%;
 }
 
 .menu select {
-    font-family: Roboto, sans-serif; /* Aplica la fuente al menú desplegable */
-    font-size: 16px; /* Ajusta el tamaño del texto del menú */
-    padding: 8px; /* Agrega un relleno al menú desplegable */
-    border: none; /* Elimina el borde del menú desplegable */
-    border-radius: 5px; /* Agrega esquinas redondeadas al menú desplegable */
-    background-color: #0084ff; /* Aplica un color de fondo al menú desplegable */
-    color: white; /* Aplica un color de texto blanco al menú desplegable */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el menú desplegable */
+    font-family: Roboto, sans-serif; 
+    font-size: 16px; 
+    padding: 8px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #0084ff; 
+    color: white; 
+    cursor: pointer; 
 }
 
 .marco img {
-    max-width: 10%;
-    height: 5%;
-    padding: 1% ;
+    max-width: 5%;
+    height: auto;
+    padding: 0.5%;
     align-content: left;
 }
-
-button:nth-child(-n+9) { background-color: var(--color-#4db456); }
