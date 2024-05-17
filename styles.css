@@ -2,15 +2,15 @@ body {
     margin: 0;
     padding: 0;
     background: url('imagenfondobeatme.jpg') center/cover no-repeat #f8f8f8;
-    font-family: Monserrat, sans-serif;
+    font-family: 'Monserrat', sans-serif;
     text-align: center;
     color: white;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 100px; /* Ajusta el padding superior para evitar que el contenido se superponga al marco */
 }
 
 h1 {
-    font-family: UrbanJungleDEMO, sans-serif;
+    font-family: 'UrbanJungleDEMO', sans-serif;
     font-size: 80px;
     color: #fff;
     -webkit-text-stroke-width: 2px black;
@@ -25,6 +25,7 @@ h3 {
     color: #fff;
     text-shadow: 0 0 5px black;
 }
+
 h5 {
     font-family: monospace;
     font-size: 10px;
@@ -41,9 +42,9 @@ h5 {
 }
 
 button {
-    padding: 0;
+    padding: 0% 0%;
     margin: 5%;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
@@ -60,14 +61,14 @@ button.active {
 }
 
 .stop-btn {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     text-align: center;
     line-height: normal;
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
-    padding: 15px 0; 
-    width: 80%; 
-    margin: 20% auto; 
+    padding: 15px 0; /* Ajustar el padding para adaptarse al contenido */
+    width: 80%; /* Ajustar el ancho según sea necesario */
+    margin: 20% auto; /* Centrar el botón y ajustar los márgenes */
     color: black;
     background-color: rgb(200, 33, 33);
 }
@@ -78,31 +79,32 @@ body {
     background-image: url("CartaFrente.JPG");
     color: white;
     padding: 20px;
-    margin: 0; 
+    margin: 0; /* Asegura que no haya margen por defecto */
 }
 
 .marco-fijo {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 10vh; 
-    background-color: rgba(0, 0, 0, 0.7); 
+    height: 10vh; /* 1/10 del alto de la pantalla */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    z-index: 1000; 
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
 .marco-fijo .izquierda {
     display: flex;
-    align-items: left;
+    align-items: center;
 }
 
 .marco-fijo .logo {
     max-height: 60%; /* Ajusta el tamaño del logo relativo a la altura del marco */
     margin-right: 10px;
 }
+
 .marco-fijo .derecha {
     position: relative;
 }
@@ -118,7 +120,7 @@ body {
 .marco-fijo .menu-desplegable {
     display: none;
     position: absolute;
-    top: 40px; 
+    top: 40px; /* Ajusta según sea necesario */
     right: 0;
     background-color: white;
     color: black;
@@ -141,7 +143,7 @@ body {
 
 .logo {
     display: block;
-    align-items: center; 
+    align-items: center; /* Alinea verticalmente los elementos del logo */
 }
 
 .logo-img {
@@ -151,29 +153,28 @@ body {
 }
 
 .games4d-text {
-    font-size: 24px; 
+    font-size: 24px; /* Ajusta el tamaño del texto GAMES4D */
     font-weight: bold;
 }
 
 .menu {
-    margin-top: 10%; 
-    margin-rigth: 10%;
+    margin-top: 10%; /* Ajusta el margen superior del menú */
+    margin-right: 10%;
 }
 
 .menu select {
-    font-family: Roboto, sans-serif; 
-    font-size: 16px; 
-    padding: 8px; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: #0084ff; 
-    color: white; 
-    cursor: pointer; 
+    font-family: 'Roboto', sans-serif; /* Aplica la fuente al menú desplegable */
+    font-size: 16px; /* Ajusta el tamaño del texto del menú */
+    padding: 8px; /* Agrega un relleno al menú desplegable */
+    border: none; /* Elimina el borde del menú desplegable */
+    border-radius: 5px; /* Agrega esquinas redondeadas al menú desplegable */
+    background-color: #0084ff; /* Cambia el color de fondo del menú desplegable */
+    color: white; /* Cambia el color del texto del menú desplegable */
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5); /* Agrega una sombra al menú desplegable */
+    margin-top: 20px;
 }
 
-.marco img {
-    max-width: 5%;
-    height: auto;
-    padding: 0.5%;
-    align-content: left;
+.menu select option {
+    background-color: #ffffff; /* Cambia el color de fondo de las opciones del menú desplegable */
+    color: black; /* Cambia el color del texto de las opciones del menú desplegable */
 }
