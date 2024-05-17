@@ -6,7 +6,7 @@ body {
     text-align: center;
     color: white;
     height: 100vh; /* Ajusta la altura del body al 100% del viewport */
-    padding-top: 100px; /* Ajusta el padding superior para evitar que el contenido se superponga al marco */
+    padding-top: 10%; /* Ajusta el padding superior para evitar que el contenido se superponga al marco */
 }
 
 h1 {
