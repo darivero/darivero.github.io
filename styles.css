@@ -163,6 +163,7 @@ body {
 
 .menu {
     margin-top: 10%; /* Ajusta el margen superior del menú */
+   margin-rigth: 10%;
 }
 
 .menu select {
