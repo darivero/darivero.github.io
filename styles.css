@@ -152,7 +152,7 @@ button.active {
 }
 
 .logo-img {
-    max-width: 100px; /* Ajusta el tamaño máximo del logo */
+    max-width: 10%; /* Ajusta el tamaño máximo del logo */
     margin-right: 10px; /* Agrega un margen a la derecha del logo */
 }
 
@@ -178,9 +178,9 @@ button.active {
 }
 
 .marco img {
-    max-width: 5%;
-    height: 1%;
-    padding: 0,5% ;
+    max-width: 10%;
+    height: 5%;
+    padding: 1% ;
     align-content: left;
 }
 
