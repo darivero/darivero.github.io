@@ -69,7 +69,7 @@ button.active {
     box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.5);
     padding: 15px 0; /* Ajustar el padding para adaptarse al contenido */
     width: 80%; /* Ajustar el ancho según sea necesario */
-    margin: 30px auto; /* Centrar el botón y ajustar los márgenes */
+    margin: 20% auto; /* Centrar el botón y ajustar los márgenes */
     color: black;
     background-color: rgb(200, 33, 33);
 }
