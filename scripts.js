@@ -39,3 +39,6 @@ function stopSound() {
         }
     }
 }
+
+function toggleMenu() {
+    var menu = document.getElementById('menu
