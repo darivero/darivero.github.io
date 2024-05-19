@@ -7,6 +7,7 @@ function toggleMenu() {
     }
 }
 
+
 function playSound(soundFile, button) {
     var audio = new Audio(soundFile);
     audio.play();
