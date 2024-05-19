@@ -79,3 +79,10 @@ ol li {
 .menu-desplegable a:hover {
     background-color: #f0f0f0;
 }
+
+.content-container {
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente oscuro */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
