@@ -86,3 +86,27 @@ ol li {
     margin: 20px;
     border-radius: 10px;
 }
+
+/* Estilos para los botones */
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0084ff;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+button.active {
+    background-color: #0004ff;
+}
