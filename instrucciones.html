@@ -3,27 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BeatMe</title>
+    <title>BeatMe - Instrucciones</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="marco">
-    <div class="logo">
-      <img src="GAMES 4D-logo1.png" alt="Logo GAMES4D" class="logo-img">
-      <span class="games4d-text">GAMES4D</span>
-    </div>
-  <div class="menu">
-      <select onchange="window.location=this.value;">
-          <option value="#">Menú</option>
-          <option value="quienes_somos.html">Quiénes Somos</option>
-          <option value="instrucciones.html">Instrucciones del Juego</option>
-          <option value="formulario_compra.html">Comprar</option>
-          <option value="index.html">Inicio</option>
-      </select>
-	  </div>
-	</div>
-    <div>
-        <h1><b>Beat Me</b></h1>
-         <h3>INSTRUCCIONES</h3>
+    <div class="menu-container">
+        <button class="menu-btn" onclick="toggleMenu()">&#9776; Menú</button>
+        <div class="menu-desplegable" id="menu">
+            <a href="contactos.html">Contacto</a>
+            <a href="index.html">Home</a>
         </div>
+    </div>
+    <h1>Beat Me</h1>
+    <h3>INSTRUCCIONES</h3>
+    <h4>OPCIÓN 1: BATALLA</h4>
+    <p>
+        <strong>Número de jugadores:</strong> de 2 a 8 freestylers.
+    </p>
+    <h5>Preparativos:</h5>
+    <ol>
+        <li>Necesitarás el mazo Beat Me de 72 cartas y un dispositivo conectado a internet (smartphone, tablet, laptop o computadora).</li>
+        <li>Abre la cámara del dispositivo, escanea el código QR y dirígete a la página BeatMe (<a href="http://www.beatme.com.ar" target="_blank">www.beatme.com.ar</a>), donde encontrarás 9 beats distintos para improvisar.</li>
+        <li>Decide quién empieza la batalla por sorteo o acuerdo y determina cuántas rondas tendrá la batalla.</li>
+    </ol>
+    <h5>El juego:</h5>
+    <ol>
+        <li>Mezcla el mazo completo y colócalo en el centro con las palabras hacia abajo.</li>
+        <li>El jugador a la izquierda del Jugador 1 decide qué beat poner y presiona el botón correspondiente en la página web.</li>
+        <li>Cuando comience a sonar el beat, habrá un espacio musical de 4 compases antes de iniciar el conteo.</li>
+        <li>Al escuchar el conteo de "3, 2, 1, Beatme!", el Jugador 1 da vuelta la primera carta y comienza su improvisación, nombrando las cuatro palabras de la carta, asegurándose de que la última sílaba caiga a tiempo con el ritmo.
+            <ul>
+                <li>El jugador debe nombrar obligatoriamente todas las palabras de la carta.</li>
+            </ul>
+        </li>
+        <li>Si el jugador nombra correctamente todas las palabras, se queda con la carta y da vuelta otra del mazo para seguir improvisando hasta que se equivoque (según el criterio del resto de los jugadores) o hasta que el beat termine.</li>
+        <li>Luego, el Jugador 2 continúa con un beat diferente elegido por el jugador a su izquierda.</li>
+        <li>Una vez que todos los jugadores hayan improvisado, termina la ronda.</li>
+        <li>Anota la cantidad de cartas que cada jugador haya logrado y vuelve a mezclarlas en el mazo.</li>
+        <li>Continúan las rondas determinadas al inicio del juego.</li>
+        <li>El jugador con más cartas al final de las rondas gana la batalla.</li>
+    </ol>
+
+    <h4>OPCIÓN 2: ENTRENAMIENTO</h4>
+    <p>
+        <strong>Número de jugadores:</strong> 1 freestyler
+    </p>
+    <h5>Preparativos:</h5>
+    <ol>
+        <li>Necesitarás el mazo Beat Me de 72 cartas y un dispositivo conectado a internet (smartphone, tablet, laptop o computadora).</li>
+        <li>Abre la cámara del dispositivo, escanea el código QR y dirígete a la página BeatMe (<a href="http://www.beatme.com.ar" target="_blank">www.beatme.com.ar</a>), donde encontrarás 9 beats distintos para improvisar.</li>
+        <li>Mezcla las cartas y colócalas en la mesa con las palabras hacia abajo.</li>
+    </ol>
+    <h5>El juego:</h5>
+    <ol>
+        <li>Elige un beat y presiona el botón correspondiente en la página web.</li>
+        <li>Al escuchar el conteo, da vuelta la primera carta.</li>
+        <li>Comienza a improvisar, imaginando que tienes un contrincante enfrente.</li>
+        <li>Improvisa hasta que el beat termine y luego pasa al siguiente.</li>
+        <li>Da lo mejor de ti y entrena para la batalla.</li>
+    </ol>
+
+    <h5>Todos los beats producidos por <b>@Soudbeats</b> son de libre uso por BeatMe®. No aptos para su comercialización.</h5>
+    <h5>Beatme® es una marca registrada por Games4Ds® @2024T</h5>
+    <script src="scripts.js"></script>
 </body>
+</html>
